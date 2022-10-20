@@ -1,0 +1,49 @@
+html,body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#Anzeige{
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+
+#Tastatur{
+    width: 30%;
+    height: 400px;
+    margin-top: 50px;
+
+}
+
+.button{
+    color: white;
+    background-color: dimgray;
+    border: 0;
+    width: 25%;
+    height: 20%;
+    float: left;
+    font-size: 17px;
+}
+
+.button:hover{
+    background-color: lightslategray;
+}
+
+.Kn {
+    background-color: dimgray;
+    color: white;
+    width: 95px;
+    height: 50px;
+    border: 0;
+}
+
+.Kn:hover{
+    background-color: lightslategray;
+}
